@@ -119,6 +119,18 @@ function createBoard() {
     let cardIdx = parseInt(evt.target.dataset.id)
     imageElements[cardIdx].src = boardGuess[cardIdx].img
 }
+function cardClicked(evt) {
+    let imageEls = document.querySelectorAll('img');
+    let cardIdx = parseInt(evt.target.dataset.id);
+    if (cardGuess.length < 2) {
+        cardGuess.push(board[cardIdx].name);
+    }
+    if (cardGuess.length === 2) checkMatch();
+    imageEls[cardIdx].src = board[cardIdx].img;
+}
+function checkMatch() {
+
+}
 function shuffleBoard() {
     let boardCopy = [...masterBoard];
     let newBoard = [];
