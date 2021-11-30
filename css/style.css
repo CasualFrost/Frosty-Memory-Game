@@ -12,7 +12,6 @@ body {
     height: 610px;
     width: 595px;
     margin: auto;
-    /* border: 2px solid white; */
     grid-column-gap: 20px;
     justify-content: center;
     align-items: center;
