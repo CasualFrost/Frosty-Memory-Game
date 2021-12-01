@@ -36,13 +36,11 @@ Instructions are also in game.
 
 1. Animate the images swapping between each other.
 
-2. Double click restriction so no accidental double clicks will lock an image in place.
+2. Add lives to the game, each failed match will lower the life of the player. If player fails enough times then player loses and game resets.
 
-3. Add lives to the game, each failed match will lower the life of the player. If player fails enough times then player loses and game resets.
+3. Add more difficulties/levels. Ex: Easy = 8 matches, Normal = 12 matches, Hard = 20 matches, Impossible = 40 matches.
 
-4. Add more difficulties/levels. Ex: Easy = 8 matches, Normal = 12 matches, Hard = 20 matches, Impossible = 40 matches.
-
-5. More animations and background changed, possibly make it so how many lives left affect color
+4. More animations and background changed, possibly make it so how many lives left affect color
 
 ## Random Facts
 
