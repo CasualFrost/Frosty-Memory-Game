@@ -1,50 +1,53 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 body {
-    background-color: #85d2ff;
+	background-color: #85d2ff;
 }
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 610px;
-    width: 595px;
-    margin: auto;
-    grid-column-gap: 20px;
-    justify-content: center;
-    align-items: center;
-    perspective: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 610px;
+	width: 595px;
+	margin: auto;
+	grid-column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	perspective: 1000px;
 }
 img {
-    height: calc(22% - 5px);
-    width: calc(14.6% - 5px);
-    border-radius: 20px;
+	height: calc(22% - 5px);
+	width: calc(14.6% - 5px);
+	border-radius: 20px;
 }
 img:hover {
-    cursor: pointer;
-    transition: transform 250ms ease-in-out;
-    transform: scale(.9);
+	cursor: pointer;
+	transition: transform 250ms ease-in-out;
+	transform: scale(.9);
 }
 h1, h4 {
-    text-align: center;
-    color: white;
+	text-align: center;
+	color: white;
 }
 .datPad {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 .datButton {
-    padding: 7px;
-    border-radius: 10px;
-    border-color: white;
-    color: white;
-    background-color: rgb(255, 88, 88);
+	padding: 7px;
+	border-radius: 10px;
+	border-color: white;
+	color: white;
+	background-color: rgb(255, 88, 88);
 }
 .flexIt {
-    display: flex;
-    padding-bottom: 10px;
+	display: flex;
+	padding-bottom: 10px;
 }
 .centerIt {
-    justify-content: center;
+	justify-content: center;
+}
+#result {
+    color: lime;
 }
