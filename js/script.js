@@ -116,7 +116,7 @@ function checkMatch() {
 function renderBoard() {
 	cardGuess = [];
 	let imageEls = document.querySelectorAll('img');
-	if (correctGuesses.length === 2) {
+	if (correctGuesses.length === 24) {
 		document.getElementById('result').innerText = "Congratulations, You Won!"
 	}
 	imageEls.forEach(function(img, idx) {
